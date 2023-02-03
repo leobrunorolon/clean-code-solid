@@ -25,8 +25,8 @@ class Products {
     }
 
     toString(){
-        if(!this.isProductReady) return
-        return `${this.name} $${this.price} ${this.size}`
+        if(!this.isProductReady) return;
+        return `${this.name} $${this.price} ${this.size}`;
     }
 }
 
